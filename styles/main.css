@@ -1,11 +1,9 @@
 .calendar {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 100px);
+  grid-template-columns: repeat(7, 100px);
   grid-auto-rows: 100px;
   grid-gap: 1px;
-  width: 707px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  width: 706px;
   justify-self: center;
   align-self: center; }
 
@@ -57,10 +55,6 @@
       cursor: pointer;
       -webkit-transform: translate(0, -20px);
               transform: translate(0, -20px); }
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
 
 body {
   display: grid;
