@@ -7,8 +7,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   justify-self: center;
-  align-self: center;
-  outline: 1px solid red; }
+  align-self: center; }
 
 .calendar-mon .calendar-item:first-child {
   grid-column-start: 1; }
