@@ -1,0 +1,21 @@
+.calendar-item {
+  display: grid;
+  width: 100px;
+  height: 100px; }
+  .calendar-item .calendar-date {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    line-height: 100px;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #eee;
+    -webkit-transition: all 0.5s ease 0.1s;
+    transition: all 0.5s ease 0.1s; }
+    .calendar-item .calendar-date:hover {
+      background-color: #ffc0cb;
+      cursor: pointer;
+      -webkit-transform: translate(0, -20px);
+              transform: translate(0, -20px); }
+
+/*# sourceMappingURL=calendar-item.css.map */
