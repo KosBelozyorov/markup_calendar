@@ -1,10 +1,6 @@
 @import "grid";
 @import "calendar-item";
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   display: grid;
   font-family: Arial, sans-serif;
