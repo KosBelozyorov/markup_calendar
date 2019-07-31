@@ -1,7 +1,9 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "grid";
+@import "calendar-item";
 
 body {
-  background: $c-gray;
+  display: grid;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
 }

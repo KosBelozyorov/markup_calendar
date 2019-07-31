@@ -1,0 +1,71 @@
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 100px);
+  grid-auto-rows: 100px;
+  grid-gap: 1px;
+  width: 706px;
+  justify-self: center;
+  align-self: center;
+}
+
+.calendar-mon {
+  .calendar-item:first-child {
+    grid-column-start: 1;
+  }
+}
+
+.calendar-tue {
+  .calendar-item:first-child {
+    grid-column-start: 2;
+  }
+}
+
+.calendar-wed {
+  .calendar-item:first-child {
+    grid-column-start: 3;
+  }
+}
+
+.calendar-thu {
+  .calendar-item:first-child {
+    grid-column-start: 4;
+
+  }
+}
+
+.calendar-fri {
+  .calendar-item:first-child {
+    grid-column-start: 5;
+
+  }
+}
+
+.calendar-sat {
+  .calendar-item:first-child {
+    grid-column-start: 6;
+  }
+}
+
+.calendar-sun {
+  .calendar-item:first-child {
+    grid-column-start: 7;
+  }
+}
+
+.calendar-30 {
+  .calendar-item:last-child {
+    display: none;
+  }
+}
+
+.calendar-29 {
+  .calendar-item:nth-last-child(-n+2) {
+    display: none;
+  }
+}
+
+.calendar-28 {
+  .calendar-item:nth-last-child(-n+3) {
+    display: none;
+  }
+}
